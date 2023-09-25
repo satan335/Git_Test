@@ -1,3 +1,6 @@
-print("Hello World")
-print("Muszę ogarnąć terminal, skoro chcę pisać aplikacje")
-print("Python jest ciężki , lecz nie mogę się poddać, ponieważ moje marzenie może się nie ziścić")
+while True:
+    print("Hello World")
+    quitDecision = input("Czy chcesz wyjść z programu? (Q) \n")
+
+    if(quitDecision == "Q" or quitDecision == "q"):
+        break
